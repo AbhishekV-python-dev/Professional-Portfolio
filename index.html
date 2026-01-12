@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,29 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/54261b3eb0.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div id="header">
         <div class="container">
             <nav>
                 <img src="images/logo.png" class="logo">
                 <ul id="sidemenu">
-                        <li><a href="#header">Home</a> </li>
-                        <li><a href="#about">About</a> </li>
-                        <li><a href="#services">Services</a> </li>
-                        <li><a href="#portfolio">Portfolio</a> </li>
-                        <li><a href="#contact">Contact</a> </li>
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#services">Services</a> </li>
+                    <li><a href="#portfolio">Portfolio</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-ellipsis-vertical" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Python Programmer</p>
-                <h1>Hi,I'm <span>Abhishek</span><br>from kerala</h1>
+                <p>Python Developer & LLM Engineer</p>
+                <h1>Hi, I'm <span>Abhishek</span><br>from Kerala</h1>
             </div>
         </div>
-    </div>          
-<!-- ---------------about--------------- -->
+    </div>
+    <!-- ---------------about--------------- -->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -37,193 +39,204 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About Me</h1>
-                   <p>I’m Abhishek Viswanathan, a dedicated Python Developer with expertise in Flask, AI/ML, and LLM Engineering. I specialize in building scalable web applications and AI-driven solutions using tools like LangChain and Hugging Face, with strong proficiency in databases, REST APIs, and automation.
-With a background in Computer Science and Engineering, I combine technical knowledge with problem-solving skills to deliver reliable, high-quality solutions. I’m passionate about continuous learning, staying up to date with emerging technologies, and applying them to create real-world impact. My goal is to contribute to innovative projects that drive efficiency, intelligence, and growth in modern businesses.</p>
-                   <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
-                   </div>
-                   <div class="tab-contents active-tab"id="skills">
-                    <ul>
-                        <li><span>Python developer</span> <br>Building scalable apps, APIs, and automation tools with Python & Flask.</li>
-                        <li><span>Web development</span> <br>Designing clean, responsive, and user-friendly websites with HTML, CSS, Bootstrap & Flask.</li>
-                        <li><span>Llm Engineering</span> <br>Creating AI chatbots and NLP solutions using open-source LLMs and Python.</li>
-                        <li><span>Prompt Engineering</span> <br>Designing effective prompts to optimize LLM performance and real-world AI solutions.</li>
-                    </ul>
-                   </div>
-                   <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2025</span> <br>"Llm Engineering" - Udemy</li>
-                        <li><span>2024</span> <br>"100 days of code - A python pro Bootcamp" - Udemy</li>
-                        <li><span>2020-2024</span> <br>B.E CSE at Nehru Institute of Technology</li>
-                        <li><span>2018-2020</span> <br>Higher Secondary at PMGHSS, Palakkad</li>
-                    </ul>
-                   </div>
+                    <p>I’m Abhishek Viswanathan, a dedicated Python Developer and LLM Engineer based in Palakkad,
+                        Kerala. I specialize in building scalable web applications and AI-driven solutions using tools
+                        like LangChain, Hugging Face, and Flask. With a strong foundation in Computer Science and a
+                        passion for automation, I combine technical expertise with problem-solving skills to deliver
+                        high-quality, real-world solutions. My focus is on leveraging Generative AI to drive efficiency
+                        and innovation.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Generative AI & LLM</span> <br>Prompt Engineering, RAG, Transformer Models,
+                                LangChain.</li>
+                            <li><span>Python Development</span> <br>API Development (Flask/FastAPI), Automation, Data
+                                Structures.</li>
+                            <li><span>Web Engineering</span> <br>HTML, CSS, Bootstrap, Jinja2, RESTful Services.</li>
+                            <li><span>Databases</span> <br>SQLite, Experience with CRUD operations and persistence.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span> <br>"Generative AI & LLM Engineering" - Udemy</li>
+                            <li><span>2024</span> <br>"Python Data Structures & Algorithms" - Udemy</li>
+                            <li><span>2024</span> <br>"100 Days of Code: The Complete Python Pro Bootcamp" - Udemy</li>
+                            <li><span>2020-2024</span> <br>B.E CSE at Nehru Institute of Technology, Coimbatore</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-<!-- ----------services------ -->
- <div id="services">
-    <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Design</h2>
-                <p>Designing clean, responsive, and user-friendly websites with HTML, CSS, Bootstrap & Flask.</p>
-                <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-python"></i>
-                <h2>Python Programming</h2>
-                <p>Building scalable apps, APIs, and automation tools with Python & Flask.</p>
-                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Learn more</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-computer"></i>
-                <h2>Llm Engineering</h2>
-                <p>Creating AI chatbots and NLP solutions using open-source LLMs and Python.</p>
-                <a href="https://en.wikipedia.org/wiki/Large_language_model">Learn more</a>
+    <!-- ----------services------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing clean, responsive, and user-friendly websites with HTML, CSS, Bootstrap & Flask.</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python Programming</h2>
+                    <p>Building scalable apps, APIs, and automation tools with Python & Flask.</p>
+                    <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Llm Engineering</h2>
+                    <p>Creating AI chatbots and NLP solutions using open-source LLMs and Python.</p>
+                    <a href="https://en.wikipedia.org/wiki/Large_language_model">Learn more</a>
+                </div>
             </div>
         </div>
     </div>
- </div>
- <!-- --------------portfolio------------ -->
-  <div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/work-1.png">
-                <div class="layer">
-                    <h3>Cafes With Wifi Website</h3>
-                    <p>This web application provides a convenient platform for users to discover local cafes offering Wi-Fi services, along with detailed pricing information. Built with Python using the Flask framework, it leverages HTML, CSS, and Bootstrap to deliver a responsive and intuitive user experience. The project focuses on practical utility, helping users quickly find suitable locations for work or leisure.</p>
-                    <a href="https://github.com/AbhishekV-python-dev/cafes-with-wifi-website"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></i></a>
+    <!-- --------------portfolio------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Cafes With Wifi Website</h3>
+                        <p>A full-stack web application integrated with Google Maps API to help users discover local
+                            cafes with Wi-Fi. Features include location-based search, detailed amenity filtering, and a
+                            responsive UI built with Flask, SQLite, and Bootstrap.</p>
+                        <a href="https://cafes-with-wifi-website.onrender.com" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="work">
-                <img src="images/work-2.png">
-                <div class="layer">
-                    <h3>Flask To-Do list</h3>
-                    <p>The Flask To-Do List is a dynamic web application designed to help users efficiently manage and analyze their daily tasks. Developed with Python and Flask, this project allows users to continuously add, update, and mark tasks as complete. Beyond simple listing, it offers features for storing task data and potentially analyzing productivity patterns, making daily life organization seamless and insightful.</p>
-                    <a href="https://github.com/AbhishekV-python-dev/flask-todo-list-website"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></i></a>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Flask To-Do list</h3>
+                        <p>The Flask To-Do List is a dynamic web application designed to help users efficiently manage
+                            and analyze their daily tasks. Developed with Python and Flask, this project allows users to
+                            continuously add, update, and mark tasks as complete. Beyond simple listing, it offers
+                            features for storing task data and potentially analyzing productivity patterns, making daily
+                            life organization seamless and insightful.</p>
+                        <a href="https://github.com/AbhishekV-python-dev/flask-todo-list-website"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></i></i></a>
+                    </div>
                 </div>
-            </div>
-            <div class="work">
-                <img src="images/work-3.png">
-                <div class="layer">
-                    <h3>AI chatbot</h3>
-                    <p>This project demonstrates the development of an intelligent AI chatbot powered by open-source large language models (LLMs) and implemented using Python. The chatbot is designed to simulate natural human-like conversations, provide accurate responses, and adapt to different contexts. By integrating open-source LLMs, the project avoids reliance on proprietary APIs, making it cost-effective, customizable, and transparent.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></i></a>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>AI chatbot</h3>
+                        <p>This project demonstrates the development of an intelligent AI chatbot powered by open-source
+                            large language models (LLMs) and implemented using Python. The chatbot is designed to
+                            simulate natural human-like conversations, provide accurate responses, and adapt to
+                            different contexts. By integrating open-source LLMs, the project avoids reliance on
+                            proprietary APIs, making it cost-effective, customizable, and transparent.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></i></a>
+                    </div>
                 </div>
-            </div>
-         
-        </div>
-        <a href="#" class="btn">See more</a>
-    </div>
-  </div>
-<!-- ---------------------contact------------------>
- <div id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="contact-left">
-        <h1 class="sub-title">Contact Me</h1>
-        <p><i class="fa-solid fa-paper-plane"></i> abishekviswan@gmail.com</p>
-        <p><i class="fa-solid fa-phone-volume"></i> 7994983645</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/abhishek-v-python-dev/"><i class="fa-brands fa-square-linkedin"></i></a>
-          <a href="https://github.com/AbhishekV-python-dev?tab=repositories"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.instagram.com/abhi.viswanathan/"><i class="fa-brands fa-instagram"></i></a>
-          <a href="https://x.com/abishekviswan"><i class="fa-brands fa-square-x-twitter"></i></a>
-        </div>
-        <a href="images/Abhishek_viswanathan_2025.pdf" download class="btn btn2">Download CV</a>
-      </div> <!-- ✅ correctly closed contact-left -->
 
-      <div class="contact-right">
-        <form name="submit-to-google-sheet" id="contact-form">
-          <input type="text" placeholder="Your Name" name="Name" required>
-          <input type="email" name="Email" placeholder="Your Email" required>
-          <textarea name="Message" rows="6" placeholder="your message"></textarea>
-          <button type="submit" class="btn btn2" id="submit-btn">Submit</button>
-        </form>
-        <span id="msg"></span>
-      </div> <!-- ✅ contact-right is sibling -->
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
     </div>
-  </div>
-</div>
+    <!-- ---------------------contact------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> abishekviswan@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 7994983645</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/abhishek-v-python-dev/"><i
+                                class="fa-brands fa-square-linkedin"></i></a>
+                        <a href="https://github.com/AbhishekV-python-dev?tab=repositories"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/abhi.viswanathan/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/abishekviswan"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    </div>
+                    <a href="images/ABHISHEK_V_RESUME.pdf" download class="btn btn2">Download CV</a>
+                </div> <!-- ✅ correctly closed contact-left -->
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet" id="contact-form">
+                        <input type="text" placeholder="Your Name" name="Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2" id="submit-btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div> <!-- ✅ contact-right is sibling -->
+            </div>
+        </div>
+    </div>
 
     <div class="copyright">
         <p>Copyright <i class="fa-solid fa-copyright"></i> Abhishek </p>
     </div>
- </div>
+    </div>
 
-   <script>
-    var tablinks=document.getElementsByClassName("tab-links");
-    
-    var tabcontents=document.getElementsByClassName("tab-contents");
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link")
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
         }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemenu.style.right = "0";
         }
-        event.currentTarget.classList.add("active-link")
-        document.getElementById(tabname).classList.add("active-tab")
-    }
-   </script>
-   <script>
-    var sidemenu=document.getElementById("sidemenu")
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        // Put your script URL here (keep the same one you used)
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwVGMmWcraPjrxfr8CBOH_1b1kplMbGTEpCcQvN6Trrc8bUGlYpsQxxfhN7bDCcnWqL/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById('msg');
+        const submitBtn = document.getElementById('submit-btn');
 
-    function openmenu(){
-        sidemenu.style.right="0";
-    }
-     function closemenu(){
-        sidemenu.style.right="-200px";
-    }
-   </script>
-  <script>
-  // Put your script URL here (keep the same one you used)
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbwVGMmWcraPjrxfr8CBOH_1b1kplMbGTEpCcQvN6Trrc8bUGlYpsQxxfhN7bDCcnWqL/exec';
-  const form = document.forms['submit-to-google-sheet'];
-  const msg = document.getElementById('msg');
-  const submitBtn = document.getElementById('submit-btn');
+        form.addEventListener('submit', e => {
+            e.preventDefault(); // prevent normal form submission
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
 
-  form.addEventListener('submit', e => {
-    e.preventDefault(); // prevent normal form submission
-    submitBtn.disabled = true;
-    submitBtn.textContent = 'Sending...';
-
-    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-      .then(response => {
-        // Google Apps Script usually returns a 200 even on script-level errors, 
-        // but this is the general success path.
-        console.log('Form submission response:', response);
-        msg.textContent = 'Message sent successfully';
-        form.reset(); // clear inputs
-        submitBtn.disabled = false;
-        submitBtn.textContent = 'Submit';
-        setTimeout(() => { msg.textContent = ''; }, 5000);
-      })
-      .catch(error => {
-        console.error('Error!', error);
-        msg.textContent = 'Failed to send message. Please try again.';
-        submitBtn.disabled = false;
-        submitBtn.textContent = 'Submit';
-        setTimeout(() => { msg.textContent = ''; }, 5000);
-      });
-  });
-</script>
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    // Google Apps Script usually returns a 200 even on script-level errors, 
+                    // but this is the general success path.
+                    console.log('Form submission response:', response);
+                    msg.textContent = 'Message sent successfully';
+                    form.reset(); // clear inputs
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Submit';
+                    setTimeout(() => { msg.textContent = ''; }, 5000);
+                })
+                .catch(error => {
+                    console.error('Error!', error);
+                    msg.textContent = 'Failed to send message. Please try again.';
+                    submitBtn.disabled = false;
+                    submitBtn.textContent = 'Submit';
+                    setTimeout(() => { msg.textContent = ''; }, 5000);
+                });
+        });
+    </script>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-

@@ -507,6 +507,7 @@ nav ul li a:hover::after {
     font-weight: 700;
     line-height: 1.15;
     opacity: 0;
+    color: #fff;
     animation: fadeInUp 1s ease 0.5s forwards;
 }
 

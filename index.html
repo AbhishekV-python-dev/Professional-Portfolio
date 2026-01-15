@@ -31,14 +31,18 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    <i class="fa-solid fa-xmark menu-close" onclick="closemenu()"></i>
                 </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <i class="fa-solid fa-bars menu-open" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
                 <p>Python Developer & LLM Engineer</p>
                 <h1>Hi, I'm <span class="gradient-text">Abhishek</span><br>from Kerala<span
                         class="typewriter-cursor"></span></h1>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn btn2">Hire Me</a>
+                    <a href="#contact" class="btn">Let's Talk</a>
+                </div>
             </div>
         </div>
     </div>
@@ -268,7 +272,7 @@
         }
 
         function closemenu() {
-            sidemenu.style.right = "-250px";
+            sidemenu.style.right = "-100%";
             document.body.style.overflow = "auto";
         }
     </script>
